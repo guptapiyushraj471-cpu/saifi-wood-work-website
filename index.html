@@ -1,0 +1,1933 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saifi Wood Work | Premium Custom Furniture & Modular Interiors in Jaipur</title>
+<meta name="description" content="Saifi Wood Work, Jaipur – Premium modular kitchens, wardrobes, office furniture, showroom interiors & wall paint solutions crafted by Asif Ahamad. 10+ years of trusted craftsmanship.">
+<meta name="keywords" content="modular kitchen Jaipur, wardrobe design, office furniture, wood work Jaipur, interior designer Vaishali Nagar, Saifi Wood Work, Asif Ahamad">
+<meta name="author" content="Saifi Wood Work">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Saifi Wood Work | Premium Woodwork & Interior Solutions, Jaipur">
+<meta property="og:description" content="Transforming spaces with premium modular kitchens, wardrobes, office furniture and interior solutions.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1556911220-bff31c812dba?w=1200&q=80">
+<meta property="og:url" content="https://saifiwoodwork.in">
+<meta property="og:locale" content="en_IN">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","name":"Saifi Wood Work","telephone":["+91 9694138746","+91 7073744499"],"email":"saifiwoodwork444@gmail.com","address":{"@type":"PostalAddress","streetAddress":"B-34, Riddhi Nagar, Maharana Pratap Marg, Near Rangoli Garden, Vaishali Nagar","addressLocality":"Jaipur","addressRegion":"Rajasthan","addressCountry":"IN"},"founder":{"@type":"Person","name":"Asif Ahamad"},"areaServed":"Jaipur, Rajasthan","description":"Premium custom furniture, modular kitchens, wardrobes, office furniture, showroom interiors and wall paint solutions."}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* =====================================================
+   SAIFI WOOD WORK — LUXURY PREMIUM STYLESHEET
+   ===================================================== */
+:root {
+  --wood:       #2B1810;
+  --wood-2:     #3D241A;
+  --wood-3:     #1A0E0A;
+  --gold:       #C9A961;
+  --gold-l:     #E3CC95;
+  --gold-d:     #A8893D;
+  --ivory:      #F7F2E9;
+  --beige:      #EAE0CC;
+  --ink:        #1A1612;
+  --muted:      #6E5F52;
+  --white:      #FFFFFF;
+  --glass-bg:   rgba(255,255,255,0.06);
+  --glass-bdr:  rgba(201,169,97,0.18);
+  --font-d:     'Playfair Display', serif;
+  --font-b:     'Poppins', sans-serif;
+  --r:          16px;
+  --r-sm:       10px;
+  --sh:         0 24px 60px -20px rgba(26,22,18,0.38);
+  --sh-gold:    0 16px 40px -16px rgba(201,169,97,0.5);
+  --ctr:        1280px;
+  --ease:       0.4s cubic-bezier(.22,.61,.36,1);
+}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;font-size:16px}
+body{font-family:var(--font-b);color:var(--ink);background:var(--ivory);line-height:1.65;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+ul,ol{list-style:none}
+button{font-family:var(--font-b);cursor:pointer}
+.container{max-width:var(--ctr);margin:0 auto;padding:0 28px}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+
+/* =====================================================
+   LOADER
+   ===================================================== */
+#loader{
+  position:fixed;inset:0;
+  background:var(--wood-3);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;
+  z-index:99999;
+  transition:opacity .7s ease .2s, visibility .7s ease .2s;
+}
+#loader.done{opacity:0;visibility:hidden}
+.loader-logo{
+  display:flex;align-items:center;gap:16px;
+  opacity:0;transform:scale(.8);
+  animation:loaderIn 1s cubic-bezier(.34,1.56,.64,1) .3s forwards;
+}
+@keyframes loaderIn{to{opacity:1;transform:scale(1)}}
+.loader-mark{
+  width:64px;height:64px;border-radius:18px;
+  background:linear-gradient(135deg,var(--gold-l),var(--gold));
+  display:grid;place-items:center;
+  font-family:var(--font-d);font-weight:700;font-size:1.4rem;
+  color:var(--wood);letter-spacing:.04em;
+}
+.loader-brand{font-family:var(--font-d);font-size:1.8rem;font-weight:600;color:var(--ivory);letter-spacing:.02em}
+.loader-brand em{font-style:italic;color:var(--gold)}
+.loader-bar{
+  width:180px;height:2px;background:rgba(255,255,255,.1);border-radius:2px;overflow:hidden;
+}
+.loader-bar-fill{
+  height:100%;width:0;background:linear-gradient(90deg,var(--gold-d),var(--gold-l));border-radius:2px;
+  animation:loaderBar 1.8s ease .4s forwards;
+}
+@keyframes loaderBar{to{width:100%}}
+
+/* =====================================================
+   NAVBAR
+   ===================================================== */
+.navbar{
+  position:fixed;top:0;left:0;right:0;z-index:1000;
+  padding:20px 0;
+  transition:background var(--ease),padding var(--ease),box-shadow var(--ease);
+}
+.navbar.scrolled{
+  background:rgba(247,242,233,.92);
+  backdrop-filter:blur(20px) saturate(160%);
+  padding:12px 0;
+  box-shadow:0 8px 32px -16px rgba(26,22,18,.25);
+}
+.nav-inner{
+  max-width:var(--ctr);margin:0 auto;padding:0 28px;
+  display:flex;align-items:center;justify-content:space-between;gap:24px;
+}
+.logo{display:flex;align-items:center;gap:12px;color:var(--ivory);transition:color var(--ease)}
+.navbar.scrolled .logo{color:var(--ink)}
+.logo-mark{
+  width:44px;height:44px;border-radius:12px;
+  background:linear-gradient(135deg,var(--gold-l),var(--gold));
+  display:grid;place-items:center;
+  font-family:var(--font-d);font-weight:700;font-size:1rem;color:var(--wood);
+  flex-shrink:0;
+}
+.logo-txt{font-family:var(--font-d);font-size:1.2rem;font-weight:600}
+.logo-txt em{font-style:italic;color:var(--gold)}
+.nav-links{display:flex;align-items:center;gap:30px}
+.nav-link{
+  font-size:.86rem;font-weight:500;color:rgba(247,242,233,.9);
+  position:relative;padding:6px 0;
+  transition:color var(--ease);
+}
+.navbar.scrolled .nav-link{color:var(--ink)}
+.nav-link::after{
+  content:'';position:absolute;left:0;bottom:-2px;
+  width:0;height:2px;background:var(--gold);
+  border-radius:2px;transition:width var(--ease);
+}
+.nav-link:hover,.nav-link.active{color:var(--gold)}
+.nav-link:hover::after,.nav-link.active::after{width:100%}
+.nav-cta{
+  padding:10px 24px;border-radius:999px;border:none;
+  background:linear-gradient(135deg,var(--gold-l),var(--gold));
+  color:var(--wood);font-size:.84rem;font-weight:600;
+  transition:transform var(--ease),box-shadow var(--ease);
+  flex-shrink:0;
+}
+.nav-cta:hover{transform:translateY(-2px);box-shadow:var(--sh-gold)}
+.ham{
+  display:none;flex-direction:column;gap:5px;
+  width:38px;height:38px;justify-content:center;
+  background:none;border:none;
+}
+.ham span{display:block;height:2px;width:100%;background:var(--ivory);border-radius:2px;transition:var(--ease)}
+.navbar.scrolled .ham span{background:var(--ink)}
+.ham.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.ham.open span:nth-child(2){opacity:0;transform:scaleX(0)}
+.ham.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+/* Mobile Nav */
+@media(max-width:900px){
+  .nav-links{
+    position:absolute;top:100%;left:0;right:0;
+    flex-direction:column;align-items:flex-start;gap:14px;
+    background:var(--ivory);padding:20px 28px;
+    box-shadow:var(--sh);border-radius:0 0 var(--r) var(--r);
+    max-height:0;overflow:hidden;opacity:0;
+    transition:max-height var(--ease),opacity var(--ease),padding var(--ease);
+  }
+  .nav-links.open{max-height:500px;opacity:1;padding:24px 28px}
+  .nav-link{color:var(--ink)}
+  .ham{display:flex}
+  .nav-cta{display:none}
+}
+
+/* =====================================================
+   FLOATING BUTTONS
+   ===================================================== */
+.flt{
+  position:fixed;right:22px;z-index:900;
+  width:52px;height:52px;border-radius:50%;border:none;
+  display:grid;place-items:center;
+  box-shadow:0 8px 24px rgba(0,0,0,.25);
+  transition:transform var(--ease),opacity var(--ease),visibility var(--ease);
+  cursor:pointer;
+}
+.flt svg{width:22px;height:22px}
+.flt-wa{bottom:94px;background:#25D366;color:#fff;text-decoration:none;display:grid;place-items:center}
+.flt-call{bottom:158px;background:var(--wood);color:var(--gold-l);text-decoration:none;display:grid;place-items:center}
+.flt-top{bottom:22px;background:var(--gold);color:var(--wood);opacity:0;visibility:hidden;transform:translateY(10px)}
+.flt-top.show{opacity:1;visibility:visible;transform:translateY(0)}
+.flt:hover{transform:translateY(-3px) scale(1.05)!important}
+
+/* =====================================================
+   UTILITY / TYPOGRAPHY
+   ===================================================== */
+.eyebrow{
+  font-size:.72rem;font-weight:600;letter-spacing:.25em;text-transform:uppercase;
+  color:var(--gold);margin-bottom:14px;display:block;
+}
+.eyebrow.light{color:var(--gold-l)}
+.eyebrow.center,.section-title.center,.section-sub.center{text-align:center}
+.section-title{
+  font-family:var(--font-d);font-weight:600;
+  font-size:clamp(2rem,4vw,2.9rem);line-height:1.18;
+  letter-spacing:-.01em;margin-bottom:18px;color:var(--ink);
+}
+.section-title.white{color:var(--ivory)}
+.section-title.center{max-width:760px;margin-inline:auto}
+.section-sub{
+  font-size:1rem;color:var(--muted);max-width:640px;
+  margin:0 auto 56px;
+}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  padding:15px 36px;border-radius:999px;font-weight:600;font-size:.92rem;
+  border:1.5px solid transparent;cursor:pointer;
+  transition:transform var(--ease),box-shadow var(--ease),background var(--ease),color var(--ease);
+  white-space:nowrap;
+}
+.btn:active{transform:scale(.97)}
+.btn-gold{background:linear-gradient(135deg,var(--gold-l),var(--gold));color:var(--wood);box-shadow:var(--sh-gold)}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 20px 48px -16px rgba(201,169,97,.7)}
+.btn-outline{background:transparent;color:var(--ivory);border-color:rgba(247,242,233,.35);backdrop-filter:blur(6px)}
+.btn-outline:hover{background:rgba(247,242,233,.1);border-color:var(--gold-l);transform:translateY(-2px)}
+.btn-wood{background:var(--wood);color:var(--gold-l);border-color:var(--wood)}
+.btn-wood:hover{transform:translateY(-2px);box-shadow:var(--sh)}
+.reveal{opacity:0;transform:translateY(30px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in-view{opacity:1;transform:translateY(0)}
+.reveal-left{opacity:0;transform:translateX(-40px);transition:opacity .7s ease,transform .7s ease}
+.reveal-left.in-view{opacity:1;transform:translateX(0)}
+.reveal-right{opacity:0;transform:translateX(40px);transition:opacity .7s ease,transform .7s ease}
+.reveal-right.in-view{opacity:1;transform:translateX(0)}
+
+/* =====================================================
+   HERO
+   ===================================================== */
+.hero{
+  position:relative;min-height:100vh;
+  display:flex;align-items:center;overflow:hidden;isolation:isolate;
+}
+#particles-canvas{
+  position:absolute;inset:0;z-index:0;pointer-events:none;
+}
+.hero-bg{
+  position:absolute;inset:0;z-index:-1;
+  background-image:url('https://images.unsplash.com/photo-1556911220-bff31c812dba?w=1800&q=85');
+  background-size:cover;background-position:center;
+  transform:scale(1.05);
+  transition:transform 8s ease;
+}
+.hero-overlay{
+  position:absolute;inset:0;z-index:-1;
+  background:
+    linear-gradient(135deg,rgba(26,14,10,.9) 0%,rgba(43,24,16,.75) 50%,rgba(26,14,10,.6) 100%),
+    linear-gradient(180deg,rgba(0,0,0,.15) 0%,rgba(26,14,10,.7) 80%);
+}
+.hero-grain{
+  position:absolute;inset:0;z-index:0;opacity:.04;pointer-events:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  mix-blend-mode:overlay;
+}
+.hero-content{
+  position:relative;z-index:2;
+  max-width:780px;padding:160px 28px 100px;margin:0 auto;
+  color:var(--ivory);
+}
+.hero-eyebrow{
+  display:inline-flex;align-items:center;gap:10px;
+  font-size:.72rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--gold-l);margin-bottom:22px;
+}
+.hero-eyebrow::before{content:'';display:block;width:30px;height:1px;background:var(--gold-l)}
+.hero-title{
+  font-family:var(--font-d);font-weight:700;
+  font-size:clamp(2.8rem,7vw,5.2rem);line-height:1.06;
+  letter-spacing:-.02em;margin-bottom:24px;
+  min-height:2.2em;
+}
+.hero-title .cursor{
+  display:inline-block;width:3px;height:.85em;
+  background:var(--gold);margin-left:4px;vertical-align:middle;
+  animation:blink .85s step-end infinite;
+}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+.hero-sub{
+  font-size:clamp(1rem,1.8vw,1.18rem);
+  color:rgba(247,242,233,.82);max-width:540px;margin-bottom:40px;line-height:1.7;
+}
+.hero-btns{display:flex;flex-wrap:wrap;gap:16px;margin-bottom:52px}
+.hero-trust{
+  display:flex;flex-wrap:wrap;gap:14px 32px;
+}
+.hero-trust li{
+  display:flex;align-items:center;gap:8px;
+  font-size:.88rem;color:rgba(247,242,233,.9);
+}
+.trust-check{
+  width:20px;height:20px;border-radius:50%;
+  background:rgba(201,169,97,.2);
+  display:grid;place-items:center;
+  color:var(--gold-l);font-size:.65rem;flex-shrink:0;
+}
+.scroll-hint{
+  position:absolute;bottom:32px;left:50%;transform:translateX(-50%);
+  z-index:2;display:flex;flex-direction:column;align-items:center;gap:8px;
+  color:rgba(247,242,233,.5);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;
+}
+.scroll-hint-line{
+  width:1px;height:40px;background:linear-gradient(180deg,var(--gold-l),transparent);
+  animation:scrollLine 2s ease-in-out infinite;
+}
+@keyframes scrollLine{0%,100%{transform:scaleY(1);opacity:1}50%{transform:scaleY(.4);opacity:.4}}
+
+/* =====================================================
+   TRUST / COUNTERS
+   ===================================================== */
+.trust-section{
+  background:var(--wood);color:var(--ivory);
+  padding:70px 0;position:relative;overflow:hidden;
+}
+.trust-section::before{
+  content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse 80% 120% at 50% -20%,rgba(201,169,97,.12),transparent);
+}
+.trust-grid{
+  display:grid;grid-template-columns:repeat(4,1fr);
+  gap:24px;text-align:center;position:relative;
+}
+.trust-item{
+  padding:24px 16px;
+  border-right:1px solid rgba(255,255,255,.08);
+  transition:transform var(--ease);
+}
+.trust-item:last-child{border-right:none}
+.trust-item:hover{transform:translateY(-4px)}
+.trust-num{
+  font-family:var(--font-d);font-weight:700;
+  font-size:clamp(2.4rem,4.5vw,3.4rem);
+  background:linear-gradient(135deg,var(--gold-l),var(--gold));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  display:inline-block;line-height:1;margin-bottom:10px;
+}
+.trust-label{
+  font-size:.82rem;font-weight:500;letter-spacing:.06em;text-transform:uppercase;
+  color:rgba(247,242,233,.65);
+}
+
+/* =====================================================
+   ABOUT
+   ===================================================== */
+.about{padding:110px 0;background:var(--ivory)}
+.about-grid{
+  display:grid;grid-template-columns:1fr 1.15fr;gap:80px;align-items:center;
+}
+.about-media-wrap{position:relative}
+.about-img-main{
+  width:100%;aspect-ratio:3/4;object-fit:cover;
+  border-radius:var(--r);box-shadow:var(--sh);
+}
+.about-img-sm{
+  position:absolute;bottom:-36px;right:-36px;
+  width:58%;aspect-ratio:4/3;object-fit:cover;
+  border-radius:var(--r-sm);border:6px solid var(--ivory);
+  box-shadow:var(--sh);
+}
+.about-badge{
+  position:absolute;top:32px;left:-20px;
+  background:linear-gradient(135deg,var(--gold-l),var(--gold));
+  color:var(--wood);border-radius:var(--r-sm);padding:16px 20px;
+  box-shadow:var(--sh-gold);text-align:center;
+}
+.about-badge strong{display:block;font-family:var(--font-d);font-size:1.8rem;font-weight:700;line-height:1}
+.about-badge span{font-size:.72rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+.about-content p{color:var(--muted);margin-bottom:18px;font-size:.96rem}
+.about-pillars{
+  display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:28px 0 32px;
+}
+.about-pillar{
+  background:var(--beige);border-radius:var(--r-sm);padding:20px;
+  border-left:3px solid var(--gold);
+  transition:transform var(--ease),box-shadow var(--ease);
+}
+.about-pillar:hover{transform:translateY(-4px);box-shadow:var(--sh)}
+.about-pillar h4{font-family:var(--font-d);font-size:1rem;margin-bottom:8px;color:var(--ink)}
+.about-pillar p{font-size:.85rem;margin-bottom:0;color:var(--muted)}
+.founder-card{
+  display:flex;align-items:center;gap:16px;
+  background:var(--wood);border-radius:var(--r-sm);padding:20px 24px;
+  box-shadow:var(--sh);margin-top:28px;
+}
+.founder-img{
+  width:58px;height:58px;border-radius:50%;
+  border:3px solid var(--gold);object-fit:cover;flex-shrink:0;
+}
+.founder-info strong{display:block;color:var(--ivory);font-family:var(--font-d);font-size:1.05rem;margin-bottom:3px}
+.founder-info span{font-size:.8rem;color:var(--gold-l);letter-spacing:.04em}
+.founder-sig{
+  margin-left:auto;font-family:var(--font-d);font-style:italic;
+  font-size:1.4rem;color:var(--gold);opacity:.8;
+}
+
+/* =====================================================
+   MISSION & VISION
+   ===================================================== */
+.mission{
+  padding:110px 0;background:var(--wood);
+  position:relative;overflow:hidden;
+}
+.mission::before{
+  content:'';position:absolute;inset:0;
+  background:
+    radial-gradient(ellipse 60% 80% at 20% 50%,rgba(201,169,97,.1),transparent),
+    radial-gradient(ellipse 60% 80% at 80% 50%,rgba(201,169,97,.06),transparent);
+}
+.mission-grid{
+  display:grid;grid-template-columns:1fr 1fr;gap:28px;margin:50px 0 36px;position:relative;
+}
+.mv-card{
+  background:var(--glass-bg);
+  border:1px solid var(--glass-bdr);
+  border-radius:var(--r);padding:36px;
+  backdrop-filter:blur(12px);
+  transition:transform var(--ease),box-shadow var(--ease),background var(--ease);
+}
+.mv-card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 24px 60px -20px rgba(0,0,0,.6);
+  background:rgba(255,255,255,.09);
+}
+.mv-icon{
+  width:52px;height:52px;border-radius:14px;
+  background:linear-gradient(135deg,rgba(201,169,97,.25),rgba(201,169,97,.1));
+  display:grid;place-items:center;margin-bottom:22px;
+  border:1px solid rgba(201,169,97,.3);
+}
+.mv-icon svg{width:26px;height:26px;color:var(--gold-l)}
+.mv-card h3{
+  font-family:var(--font-d);font-size:1.5rem;font-weight:600;
+  color:var(--ivory);margin-bottom:14px;
+}
+.mv-card p{font-size:.93rem;color:rgba(247,242,233,.72);line-height:1.75}
+.values-grid{
+  display:grid;grid-template-columns:repeat(5,1fr);gap:16px;
+  position:relative;
+}
+.value-chip{
+  display:flex;flex-direction:column;align-items:center;gap:10px;
+  background:rgba(255,255,255,.04);border:1px solid rgba(201,169,97,.15);
+  border-radius:var(--r-sm);padding:20px 16px;
+  transition:transform var(--ease),background var(--ease),border-color var(--ease);
+  text-align:center;
+}
+.value-chip:hover{
+  transform:translateY(-4px);
+  background:rgba(201,169,97,.08);
+  border-color:rgba(201,169,97,.4);
+}
+.value-icon{
+  width:40px;height:40px;border-radius:10px;
+  background:linear-gradient(135deg,var(--gold-l),var(--gold));
+  display:grid;place-items:center;
+}
+.value-icon svg{width:18px;height:18px;color:var(--wood)}
+.value-chip span{font-size:.8rem;font-weight:500;color:rgba(247,242,233,.8);letter-spacing:.03em}
+
+/* =====================================================
+   SERVICES
+   ===================================================== */
+.services{padding:110px 0;background:var(--beige)}
+.services-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:24px;
+}
+.svc-card{
+  background:var(--ivory);border-radius:var(--r);
+  padding:34px 28px;border:1px solid rgba(43,24,16,.07);
+  transition:transform var(--ease),box-shadow var(--ease),background var(--ease),color var(--ease);
+  position:relative;overflow:hidden;
+}
+.svc-card::before{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(135deg,var(--wood),var(--wood-2));
+  opacity:0;transition:opacity var(--ease);
+}
+.svc-card:hover{transform:translateY(-8px);box-shadow:0 30px 70px -20px rgba(26,22,18,.45)}
+.svc-card:hover::before{opacity:1}
+.svc-card > *{position:relative;z-index:1}
+.svc-icon{
+  width:58px;height:58px;border-radius:14px;
+  background:var(--beige);color:var(--wood);
+  display:grid;place-items:center;margin-bottom:22px;
+  transition:background var(--ease),color var(--ease),transform var(--ease);
+}
+.svc-icon svg{width:28px;height:28px}
+.svc-card:hover .svc-icon{background:linear-gradient(135deg,var(--gold-l),var(--gold));color:var(--wood);transform:scale(1.1) rotate(-5deg)}
+.svc-card h3{
+  font-family:var(--font-d);font-size:1.2rem;font-weight:600;
+  margin-bottom:10px;transition:color var(--ease);
+}
+.svc-card:hover h3{color:var(--ivory)}
+.svc-card p{font-size:.88rem;color:var(--muted);margin-bottom:20px;transition:color var(--ease);line-height:1.7}
+.svc-card:hover p{color:rgba(247,242,233,.65)}
+.svc-link{
+  font-size:.82rem;font-weight:600;color:var(--wood);
+  display:inline-flex;align-items:center;gap:6px;
+  transition:color var(--ease),gap var(--ease);
+}
+.svc-card:hover .svc-link{color:var(--gold-l)}
+.svc-card:hover .svc-link{gap:10px}
+
+/* =====================================================
+   PORTFOLIO
+   ===================================================== */
+.portfolio{padding:110px 0;background:var(--ivory)}
+.filter-bar{
+  display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-bottom:48px;
+}
+.flt-btn{
+  padding:10px 24px;border-radius:999px;
+  border:1.5px solid var(--beige);background:transparent;
+  font-family:var(--font-b);font-size:.82rem;font-weight:500;
+  color:var(--muted);cursor:pointer;transition:var(--ease);
+}
+.flt-btn:hover{border-color:var(--gold);color:var(--ink)}
+.flt-btn.active{background:var(--wood);border-color:var(--wood);color:var(--gold-l)}
+.portfolio-grid{
+  columns:4;column-gap:18px;
+}
+.port-item{
+  break-inside:avoid;margin-bottom:18px;position:relative;
+  border-radius:var(--r-sm);overflow:hidden;cursor:pointer;
+  transition:transform var(--ease),opacity .4s ease;
+}
+.port-item.hidden{display:none}
+.port-item img{width:100%;display:block;transition:transform .6s ease}
+.port-item:hover img{transform:scale(1.07)}
+.port-overlay{
+  position:absolute;inset:0;
+  background:linear-gradient(180deg,transparent 40%,rgba(26,22,18,.88));
+  opacity:0;transition:opacity var(--ease);
+  display:flex;flex-direction:column;justify-content:flex-end;padding:20px;
+}
+.port-item:hover .port-overlay{opacity:1}
+.port-overlay h4{font-family:var(--font-d);font-size:1rem;color:var(--ivory);margin-bottom:4px}
+.port-overlay small{font-size:.74rem;color:var(--gold-l)}
+
+/* Lightbox */
+.lightbox{
+  position:fixed;inset:0;z-index:9000;
+  display:flex;align-items:center;justify-content:center;
+  background:rgba(26,14,10,.95);backdrop-filter:blur(8px);
+  opacity:0;visibility:hidden;transition:opacity .4s ease,visibility .4s ease;
+}
+.lightbox.open{opacity:1;visibility:visible}
+.lightbox img{max-width:90vw;max-height:85vh;border-radius:var(--r-sm);object-fit:contain}
+.lightbox-close{
+  position:absolute;top:24px;right:28px;
+  background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);
+  color:var(--ivory);width:42px;height:42px;border-radius:50%;
+  font-size:1.2rem;display:grid;place-items:center;cursor:pointer;
+  transition:background var(--ease);
+}
+.lightbox-close:hover{background:var(--gold);color:var(--wood)}
+
+/* =====================================================
+   BEFORE / AFTER
+   ===================================================== */
+.ba-section{padding:110px 0;background:var(--wood-3)}
+.ba-wrap{
+  position:relative;max-width:960px;margin:0 auto;
+  aspect-ratio:16/10;border-radius:var(--r);overflow:hidden;
+  box-shadow:0 32px 80px -24px rgba(0,0,0,.8);user-select:none;touch-action:none;
+}
+.ba-before,.ba-after{
+  position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+}
+.ba-after-clip{position:absolute;inset:0;overflow:hidden;width:50%}
+.ba-after-clip .ba-after{width:960px;max-width:none}
+.ba-handle-line{
+  position:absolute;top:0;bottom:0;left:50%;
+  width:3px;background:var(--gold);transform:translateX(-50%);cursor:ew-resize;
+}
+.ba-handle-btn{
+  position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  width:44px;height:44px;border-radius:50%;
+  background:var(--gold);color:var(--wood);
+  display:grid;place-items:center;font-size:.8rem;font-weight:700;
+  box-shadow:var(--sh-gold);pointer-events:none;
+}
+.ba-tag{
+  position:absolute;bottom:18px;padding:7px 18px;
+  background:rgba(26,22,18,.6);backdrop-filter:blur(8px);
+  color:var(--ivory);font-size:.72rem;font-weight:600;
+  letter-spacing:.1em;text-transform:uppercase;border-radius:999px;
+}
+.ba-tag-l{left:18px}.ba-tag-r{right:18px}
+
+/* =====================================================
+   PROCESS
+   ===================================================== */
+.process{padding:110px 0;background:var(--ivory)}
+.process-timeline{
+  display:grid;grid-template-columns:repeat(5,1fr);
+  gap:0;margin-top:60px;position:relative;
+}
+.process-timeline::before{
+  content:'';position:absolute;top:36px;left:10%;right:10%;height:1px;
+  background:linear-gradient(90deg,transparent,var(--gold),transparent);
+}
+.proc-step{
+  display:flex;flex-direction:column;align-items:center;text-align:center;
+  padding:0 12px;position:relative;
+}
+.proc-num{
+  width:72px;height:72px;border-radius:50%;
+  background:var(--wood);color:var(--gold-l);
+  font-family:var(--font-d);font-weight:600;font-size:1.2rem;
+  display:grid;place-items:center;margin-bottom:20px;
+  position:relative;z-index:1;
+  box-shadow:0 0 0 8px var(--ivory);
+  transition:transform var(--ease),background var(--ease);
+}
+.proc-step:hover .proc-num{transform:scale(1.1);background:var(--gold);color:var(--wood)}
+.proc-step h4{font-family:var(--font-d);font-size:1rem;font-weight:600;margin-bottom:8px;color:var(--ink)}
+.proc-step p{font-size:.83rem;color:var(--muted);line-height:1.65}
+
+/* =====================================================
+   WHY US
+   ===================================================== */
+.why{padding:110px 0;background:var(--wood-2)}
+.why-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:52px;
+}
+.why-card{
+  background:var(--glass-bg);border:1px solid var(--glass-bdr);
+  border-radius:var(--r);padding:32px;backdrop-filter:blur(12px);
+  transition:transform var(--ease),background var(--ease),box-shadow var(--ease);
+}
+.why-card:hover{transform:translateY(-6px);background:rgba(255,255,255,.09);box-shadow:0 24px 60px -20px rgba(0,0,0,.5)}
+.why-num{
+  font-family:var(--font-d);font-size:3rem;font-weight:700;line-height:1;
+  background:linear-gradient(135deg,var(--gold-l),var(--gold));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  margin-bottom:14px;opacity:.5;
+}
+.why-card h4{font-family:var(--font-d);font-size:1.15rem;color:var(--ivory);margin-bottom:10px}
+.why-card p{font-size:.88rem;color:rgba(247,242,233,.62);line-height:1.7}
+
+/* =====================================================
+   TESTIMONIALS
+   ===================================================== */
+.testimonials{padding:110px 0;background:var(--wood)}
+.testi-wrap{max-width:820px;margin:52px auto 0;position:relative}
+.testi-track{display:flex;transition:transform .55s cubic-bezier(.25,.46,.45,.94)}
+.testi-card{
+  flex:0 0 100%;
+  background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);
+  border-radius:var(--r);padding:40px;backdrop-filter:blur(10px);
+}
+.testi-stars{color:var(--gold);font-size:1.1rem;letter-spacing:4px;margin-bottom:18px}
+.testi-text{
+  font-family:var(--font-d);font-style:italic;
+  font-size:1.15rem;line-height:1.7;
+  color:rgba(247,242,233,.9);margin-bottom:28px;
+}
+.testi-author{display:flex;align-items:center;gap:16px}
+.testi-avatar{
+  width:52px;height:52px;border-radius:50%;object-fit:cover;
+  border:2px solid var(--gold);flex-shrink:0;
+}
+.testi-author strong{display:block;color:var(--ivory);font-size:.95rem;margin-bottom:3px}
+.testi-author span{font-size:.78rem;color:var(--gold-l)}
+.testi-controls{display:flex;align-items:center;justify-content:center;gap:22px;margin-top:32px}
+.testi-btn{
+  width:44px;height:44px;border-radius:50%;border:1px solid rgba(255,255,255,.2);
+  background:transparent;color:var(--ivory);font-size:.9rem;
+  transition:var(--ease);cursor:pointer;
+}
+.testi-btn:hover{background:var(--gold);color:var(--wood);border-color:var(--gold)}
+.testi-dots{display:flex;gap:8px}
+.testi-dot{
+  width:9px;height:9px;border-radius:50%;background:rgba(255,255,255,.2);
+  cursor:pointer;transition:var(--ease);
+}
+.testi-dot.active{background:var(--gold);width:24px;border-radius:999px}
+
+/* =====================================================
+   FAQ
+   ===================================================== */
+.faq{padding:110px 0;background:var(--beige)}
+.faq-inner{max-width:780px;margin:52px auto 0;display:flex;flex-direction:column;gap:14px}
+.faq-item{
+  background:var(--ivory);border-radius:var(--r-sm);
+  border:1px solid rgba(43,24,16,.07);overflow:hidden;
+}
+.faq-q{
+  width:100%;display:flex;align-items:center;justify-content:space-between;gap:16px;
+  padding:20px 24px;background:none;border:none;
+  font-family:var(--font-b);font-size:.98rem;font-weight:500;
+  color:var(--ink);text-align:left;cursor:pointer;
+  transition:background var(--ease);
+}
+.faq-q:hover{background:var(--beige)}
+.faq-icon{
+  width:30px;height:30px;border-radius:50%;flex-shrink:0;
+  background:var(--beige);display:grid;place-items:center;
+  font-size:1.2rem;color:var(--wood);
+  transition:transform var(--ease),background var(--ease);
+}
+.faq-item.open .faq-icon{transform:rotate(45deg);background:var(--gold);color:var(--wood)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .35s ease}
+.faq-a p{padding:2px 24px 20px;font-size:.92rem;color:var(--muted);line-height:1.72}
+
+/* =====================================================
+   QUOTE / LEAD FORM
+   ===================================================== */
+.quote{
+  padding:110px 0;background:var(--wood);
+  position:relative;overflow:hidden;isolation:isolate;
+}
+.quote::before{
+  content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse 80% 100% at 50% 0%,rgba(201,169,97,.1),transparent);
+}
+.quote-grid{
+  display:grid;grid-template-columns:1fr 1.1fr;gap:72px;align-items:center;
+  position:relative;z-index:1;
+}
+.quote-info p{font-size:.95rem;color:rgba(247,242,233,.72);margin-bottom:28px}
+.quote-checks{display:flex;flex-direction:column;gap:12px}
+.quote-check{
+  display:flex;align-items:center;gap:10px;
+  font-size:.9rem;color:rgba(247,242,233,.82);
+}
+.qc-icon{
+  width:22px;height:22px;border-radius:50%;
+  background:rgba(201,169,97,.18);display:grid;place-items:center;
+  color:var(--gold-l);font-size:.65rem;flex-shrink:0;
+}
+.quote-form-box{
+  background:var(--ivory);border-radius:var(--r);padding:38px;
+  box-shadow:var(--sh);
+}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.frow{display:flex;flex-direction:column;gap:6px}
+.frow-full{grid-column:1/-1}
+.frow label{font-size:.78rem;font-weight:600;letter-spacing:.04em;color:var(--muted);text-transform:uppercase}
+.frow input,.frow select,.frow textarea{
+  font-family:var(--font-b);font-size:.93rem;padding:13px 14px;
+  border:1.5px solid var(--beige);border-radius:var(--r-sm);
+  background:#fff;color:var(--ink);
+  transition:border-color var(--ease),box-shadow var(--ease);
+}
+.frow input:focus,.frow select:focus,.frow textarea:focus{
+  outline:none;border-color:var(--gold);box-shadow:0 0 0 4px rgba(201,169,97,.18);
+}
+.frow input.err,.frow select.err,.frow textarea.err{border-color:#c0564a}
+.ferr{font-size:.75rem;color:#c0564a;min-height:.9em}
+.frow textarea{resize:vertical}
+.form-submit{
+  grid-column:1/-1;padding:16px;font-size:1rem;
+  background:linear-gradient(135deg,var(--gold-l),var(--gold));
+  color:var(--wood);font-weight:700;border:none;border-radius:999px;
+  cursor:pointer;transition:transform var(--ease),box-shadow var(--ease);
+  box-shadow:var(--sh-gold);
+}
+.form-submit:hover{transform:translateY(-2px);box-shadow:0 20px 48px -16px rgba(201,169,97,.7)}
+.form-msg{
+  grid-column:1/-1;text-align:center;
+  font-size:.9rem;font-weight:600;min-height:1.2em;
+}
+.form-msg.ok{color:#4f8f5b}
+.form-msg.fail{color:#c0564a}
+
+/* Popup */
+.popup-overlay{
+  position:fixed;inset:0;z-index:9500;
+  background:rgba(26,14,10,.85);backdrop-filter:blur(8px);
+  display:flex;align-items:center;justify-content:center;
+  opacity:0;visibility:hidden;transition:opacity .4s ease,visibility .4s ease;
+}
+.popup-overlay.open{opacity:1;visibility:visible}
+.popup-box{
+  background:var(--ivory);border-radius:var(--r);padding:44px 40px;
+  max-width:460px;width:90%;text-align:center;position:relative;
+  box-shadow:var(--sh);
+  transform:scale(.9);transition:transform .4s cubic-bezier(.34,1.56,.64,1);
+}
+.popup-overlay.open .popup-box{transform:scale(1)}
+.popup-close{
+  position:absolute;top:16px;right:18px;
+  background:none;border:none;font-size:1.4rem;
+  color:var(--muted);cursor:pointer;
+  transition:color var(--ease);
+}
+.popup-close:hover{color:var(--ink)}
+.popup-icon{
+  width:64px;height:64px;border-radius:50%;
+  background:linear-gradient(135deg,var(--gold-l),var(--gold));
+  display:grid;place-items:center;margin:0 auto 20px;
+  font-size:1.6rem;color:var(--wood);
+}
+.popup-box h3{font-family:var(--font-d);font-size:1.7rem;margin-bottom:10px;color:var(--ink)}
+.popup-box p{font-size:.93rem;color:var(--muted);margin-bottom:26px}
+.popup-btn{
+  display:inline-flex;align-items:center;gap:10px;
+  padding:14px 32px;border-radius:999px;
+  background:#25D366;color:#fff;font-weight:600;font-size:.93rem;
+  transition:transform var(--ease),box-shadow var(--ease);
+  text-decoration:none;
+}
+.popup-btn:hover{transform:translateY(-2px);box-shadow:0 12px 32px rgba(37,211,102,.35)}
+
+/* =====================================================
+   CONTACT
+   ===================================================== */
+.contact{padding:110px 0;background:var(--ivory)}
+.contact-grid{display:grid;grid-template-columns:1fr 1.2fr;gap:64px;align-items:stretch}
+.c-item{
+  display:flex;gap:18px;padding:20px 0;
+  border-bottom:1px solid var(--beige);
+}
+.c-item:last-child{border-bottom:none}
+.c-icon{
+  width:44px;height:44px;border-radius:12px;
+  background:var(--beige);display:grid;place-items:center;flex-shrink:0;margin-top:2px;
+}
+.c-icon svg{width:20px;height:20px;color:var(--gold)}
+.c-item strong{display:block;font-family:var(--font-d);font-size:1rem;margin-bottom:5px;color:var(--ink)}
+.c-item a,.c-item p{display:block;font-size:.9rem;color:var(--muted)}
+.c-item a:hover{color:var(--gold-d)}
+.contact-map{border-radius:var(--r);overflow:hidden;box-shadow:var(--sh);min-height:420px}
+.contact-map iframe{width:100%;height:100%;min-height:420px;border:0;display:block}
+
+/* =====================================================
+   FOOTER
+   ===================================================== */
+.footer{background:var(--ink);color:rgba(247,242,233,.65);padding:80px 0 0}
+.footer-grid{
+  display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:40px;
+  padding-bottom:50px;border-bottom:1px solid rgba(255,255,255,.07);
+}
+.footer-brand .logo{color:var(--ivory);margin-bottom:16px;display:inline-flex}
+.footer-brand p{font-size:.88rem;max-width:310px;margin-bottom:22px;line-height:1.7}
+.soc{display:flex;gap:10px}
+.soc a{
+  width:38px;height:38px;border-radius:50%;
+  border:1px solid rgba(255,255,255,.12);
+  display:grid;place-items:center;
+  transition:var(--ease);
+}
+.soc a:hover{background:var(--gold);border-color:var(--gold);color:var(--ink)}
+.soc svg{width:17px;height:17px}
+.footer-col h5{
+  font-family:var(--font-d);color:var(--ivory);font-size:1rem;
+  margin-bottom:18px;font-weight:600;
+}
+.footer-col a,.footer-col p{
+  display:block;font-size:.87rem;margin-bottom:11px;
+  transition:color var(--ease);
+}
+.footer-col a:hover{color:var(--gold-l)}
+.footer-bottom{
+  text-align:center;padding:26px 0;
+  font-size:.78rem;color:rgba(247,242,233,.35);
+}
+
+/* =====================================================
+   RESPONSIVE
+   ===================================================== */
+@media(max-width:1100px){
+  .services-grid{grid-template-columns:repeat(2,1fr)}
+  .portfolio-grid{columns:2}
+  .trust-grid{grid-template-columns:repeat(2,1fr)}
+  .process-timeline{grid-template-columns:repeat(3,1fr);gap:40px 20px}
+  .process-timeline::before{display:none}
+  .values-grid{grid-template-columns:repeat(3,1fr)}
+  .footer-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:860px){
+  .about-grid,.contact-grid,.quote-grid,.mission-grid{grid-template-columns:1fr;gap:44px}
+  .about-img-sm{display:none}
+  .about-badge{top:auto;bottom:16px;left:16px}
+  .why-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:640px){
+  .services-grid,.why-grid{grid-template-columns:1fr}
+  .portfolio-grid{columns:1}
+  .process-timeline{grid-template-columns:1fr;gap:28px}
+  .trust-grid{grid-template-columns:repeat(2,1fr)}
+  .values-grid{grid-template-columns:repeat(2,1fr)}
+  .footer-grid{grid-template-columns:1fr}
+  .about-pillars{grid-template-columns:1fr}
+  .form-grid{grid-template-columns:1fr}
+  .frow-full{grid-column:auto}
+  .form-submit{grid-column:auto}
+  .form-msg{grid-column:auto}
+  .hero-btns{flex-direction:column;align-items:stretch}
+  .hero-btns .btn{text-align:center;justify-content:center}
+}
+@media(max-width:480px){
+  .flt{width:48px;height:48px;right:14px}
+  .flt-wa{bottom:80px}.flt-call{bottom:138px}.flt-top{bottom:14px}
+}
+</style>
+</head>
+<body>
+
+<!-- ===================== LOADER ===================== -->
+<div id="loader">
+  <div class="loader-logo">
+    <div class="loader-mark">SW</div>
+    <div class="loader-brand">Saifi <em>Wood Work</em></div>
+  </div>
+  <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+</div>
+
+<!-- ===================== FLOATS ===================== -->
+<a href="https://wa.me/919694138746" class="flt flt-wa" aria-label="WhatsApp" target="_blank" rel="noopener">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A8.86 8.86 0 0 0 12.05 4a8.92 8.92 0 0 0-7.7 13.4l-.83 3.04 3.12-.82a8.9 8.9 0 0 0 4.27 1.09h.01c4.92 0 8.92-4 8.92-8.92a8.85 8.85 0 0 0-2.64-6.27zM12.05 19c-1.34 0-2.65-.36-3.79-1.04l-.27-.16-2.83.74.76-2.76-.18-.28a7.4 7.4 0 0 1-1.13-3.94 7.42 7.42 0 0 1 12.65-5.25 7.34 7.34 0 0 1 2.18 5.21A7.43 7.43 0 0 1 12.05 19zm4.07-5.56c-.22-.11-1.31-.65-1.52-.72-.2-.07-.35-.11-.5.11-.15.22-.57.72-.7.87-.13.15-.26.16-.48.05-1.31-.65-2.17-1.17-3.04-2.65-.23-.4.23-.37.66-1.23.07-.15.04-.27-.03-.38-.07-.11-.62-1.49-.85-2.04-.22-.53-.45-.46-.62-.47-.16-.01-.35-.01-.53-.01-.18 0-.48.07-.73.34-.25.27-.96.94-.96 2.29 0 1.35.98 2.65 1.12 2.84.14.18 1.9 2.9 4.61 3.95 2.3.9 2.77.72 3.27.67.5-.05 1.61-.66 1.84-1.29.23-.63.23-1.17.16-1.29-.07-.11-.25-.18-.48-.29z"/></svg>
+</a>
+<a href="tel:+919694138746" class="flt flt-call" aria-label="Call" >
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.85 21 3 13.15 3 3.5a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.25 1.02l-2.2 2.2z"/></svg>
+</a>
+<button class="flt flt-top" id="topBtn" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<!-- ===================== NAVBAR ===================== -->
+<header class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="logo">
+      <div class="logo-mark">SW</div>
+      <div class="logo-txt">Saifi <em>Wood Work</em></div>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#mission" class="nav-link">Mission</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#portfolio" class="nav-link">Portfolio</a>
+      <a href="#process" class="nav-link">Process</a>
+      <a href="#testimonials" class="nav-link">Testimonials</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+    <div style="display:flex;align-items:center;gap:12px">
+      <a href="https://wa.me/919694138746" class="nav-cta" target="_blank" rel="noopener">WhatsApp Us</a>
+      <button class="ham" id="ham" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ===================== HERO ===================== -->
+<section id="home" class="hero">
+  <canvas id="particles-canvas"></canvas>
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-grain"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Custom Furniture · Modular Interiors · Jaipur</p>
+    <h1 class="hero-title" id="heroTitle"><span class="cursor"></span></h1>
+    <p class="hero-sub">Premium Woodwork, Modular Kitchens, Wardrobes & Custom Furniture — Crafted for modern living in Jaipur.</p>
+    <div class="hero-btns">
+      <a href="#quote" class="btn btn-gold">Get Free Quote</a>
+      <a href="https://wa.me/919694138746" class="btn btn-outline" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A8.86 8.86 0 0 0 12.05 4a8.92 8.92 0 0 0-7.7 13.4l-.83 3.04 3.12-.82a8.9 8.9 0 0 0 4.27 1.09h.01c4.92 0 8.92-4 8.92-8.92a8.85 8.85 0 0 0-2.64-6.27z"/></svg>
+        WhatsApp Now
+      </a>
+    </div>
+    <ul class="hero-trust">
+      <li><span class="trust-check">✓</span> 10+ Years Experience</li>
+      <li><span class="trust-check">✓</span> Premium Quality Materials</li>
+      <li><span class="trust-check">✓</span> Custom Designs</li>
+      <li><span class="trust-check">✓</span> Timely Delivery</li>
+    </ul>
+  </div>
+  <div class="scroll-hint">
+    <span>Scroll</span>
+    <div class="scroll-hint-line"></div>
+  </div>
+</section>
+
+<!-- ===================== TRUST ===================== -->
+<section class="trust-section">
+  <div class="container">
+    <div class="trust-grid">
+      <div class="trust-item reveal">
+        <div class="trust-num"><span class="counter" data-target="1000">0</span>+</div>
+        <div class="trust-label">Projects Delivered</div>
+      </div>
+      <div class="trust-item reveal">
+        <div class="trust-num"><span class="counter" data-target="500">0</span>+</div>
+        <div class="trust-label">Happy Clients</div>
+      </div>
+      <div class="trust-item reveal">
+        <div class="trust-num"><span class="counter" data-target="10">0</span>+</div>
+        <div class="trust-label">Years Experience</div>
+      </div>
+      <div class="trust-item reveal">
+        <div class="trust-num"><span class="counter" data-target="98">0</span>%</div>
+        <div class="trust-label">Customer Satisfaction</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section id="about" class="about">
+  <div class="container about-grid">
+    <div class="about-media-wrap reveal-left">
+      <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=900&q=80" alt="Premium modular kitchen by Saifi Wood Work" class="about-img-main" loading="lazy">
+      <img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=600&q=80" alt="Custom wooden wardrobe" class="about-img-sm" loading="lazy">
+      <div class="about-badge">
+        <strong>10+</strong>
+        <span>Years of<br>Excellence</span>
+      </div>
+    </div>
+    <div class="about-content reveal-right">
+      <span class="eyebrow">About Saifi Wood Work</span>
+      <h2 class="section-title">Crafted in Jaipur,<br>Built to Last a Lifetime</h2>
+      <p>For over a decade, Saifi Wood Work has been transforming houses, offices and showrooms across Jaipur into spaces that people are proud of. We blend traditional woodworking craftsmanship with modern modular design &mdash; from kitchens and wardrobes to complete showroom interiors.</p>
+      <p>Every project begins with a conversation about how you live and work, and ends with furniture built to fit your space, your budget and your style.</p>
+      <div class="about-pillars">
+        <div class="about-pillar">
+          <h4>Our Mission</h4>
+          <p>Deliver durable, beautifully finished woodwork that elevates every room without stretching the budget.</p>
+        </div>
+        <div class="about-pillar">
+          <h4>Our Vision</h4>
+          <p>Become Rajasthan's most trusted name for modular interiors, one satisfied client at a time.</p>
+        </div>
+      </div>
+      <div class="founder-card">
+        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80" alt="Asif Ahamad, Founder" class="founder-img" loading="lazy">
+        <div class="founder-info">
+          <strong>Asif Ahamad</strong>
+          <span>Founder & Master Craftsman</span>
+        </div>
+        <div class="founder-sig">AA</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== MISSION & VISION ===================== -->
+<section id="mission" class="mission">
+  <div class="container">
+    <span class="eyebrow light center">Our Purpose</span>
+    <h2 class="section-title white center">Mission, Vision & Core Values</h2>
+
+    <div class="mission-grid">
+      <div class="mv-card reveal">
+        <div class="mv-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+        </div>
+        <h3>Our Mission</h3>
+        <p>To deliver premium quality woodwork and interior solutions that combine functionality, durability, craftsmanship and modern aesthetics — while consistently exceeding customer expectations on every single project.</p>
+      </div>
+      <div class="mv-card reveal">
+        <div class="mv-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+        </div>
+        <h3>Our Vision</h3>
+        <p>To become Rajasthan's most trusted and innovative interior and woodwork brand by transforming homes and commercial spaces through world-class design and exceptional workmanship that stands the test of time.</p>
+      </div>
+    </div>
+
+    <div class="values-grid">
+      <div class="value-chip reveal">
+        <div class="value-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+        <span>Quality</span>
+      </div>
+      <div class="value-chip reveal">
+        <div class="value-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg></div>
+        <span>Innovation</span>
+      </div>
+      <div class="value-chip reveal">
+        <div class="value-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg></div>
+        <span>Transparency</span>
+      </div>
+      <div class="value-chip reveal">
+        <div class="value-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg></div>
+        <span>Craftsmanship</span>
+      </div>
+      <div class="value-chip reveal">
+        <div class="value-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0"/></svg></div>
+        <span>Customer First</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVICES ===================== -->
+<section id="services" class="services">
+  <div class="container">
+    <span class="eyebrow center">What We Do</span>
+    <h2 class="section-title center">Services Built Around Your Space</h2>
+    <p class="section-sub center">From a single wardrobe to a full showroom fit-out — every service is designed, measured and installed in-house.</p>
+    <div class="services-grid">
+      <article class="svc-card reveal">
+        <div class="svc-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="6" y="10" width="36" height="28" rx="2"/><path d="M6 22h36M16 22v16M32 22v16"/><circle cx="24" cy="16" r="1.5" fill="currentColor"/></svg></div>
+        <h3>Modular Kitchen</h3>
+        <p>Ergonomic, space-efficient kitchen designs with premium shutters, smart storage and modern finishes that transform your cooking experience.</p>
+        <a href="#quote" class="svc-link">Get a Quote →</a>
+      </article>
+      <article class="svc-card reveal">
+        <div class="svc-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="8" y="6" width="32" height="36" rx="2"/><path d="M24 6v36M14 14h4M30 14h4"/></svg></div>
+        <h3>Wardrobes & Cabinets</h3>
+        <p>Sliding, hinged or walk-in wardrobes tailored to your space and storage needs — maximising every inch with intelligent design.</p>
+        <a href="#quote" class="svc-link">Get a Quote →</a>
+      </article>
+      <article class="svc-card reveal">
+        <div class="svc-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="6" y="18" width="36" height="6" rx="1"/><path d="M10 24v12M38 24v12M6 36h36"/><circle cx="18" cy="14" r="3"/></svg></div>
+        <h3>Office Furniture</h3>
+        <p>Workstations, cabins, reception desks and storage units designed for productivity and professional style in any work environment.</p>
+        <a href="#quote" class="svc-link">Get a Quote →</a>
+      </article>
+      <article class="svc-card reveal">
+        <div class="svc-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 42V18l18-12 18 12v24"/><path d="M18 42V26h12v16"/></svg></div>
+        <h3>Showroom Interiors</h3>
+        <p>Eye-catching display units, counters and lighting layouts that transform your retail space and turn footfall into sales.</p>
+        <a href="#quote" class="svc-link">Get a Quote →</a>
+      </article>
+      <article class="svc-card reveal">
+        <div class="svc-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 40 28 8l8 4-20 32z"/><path d="M28 8l8 4M14 30l8 4"/></svg></div>
+        <h3>Custom Furniture</h3>
+        <p>Beds, sofas, dining tables and study units crafted to your exact dimensions, finish and budget — one-of-a-kind pieces for your home.</p>
+        <a href="#quote" class="svc-link">Get a Quote →</a>
+      </article>
+      <article class="svc-card reveal">
+        <div class="svc-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="8" y="8" width="32" height="32" rx="2"/><path d="M8 28h32M16 36v-8M32 36v-8"/></svg></div>
+        <h3>Wall Paint & Interior</h3>
+        <p>Texture, accent and premium emulsion paint finishes that complete your interior look — paired with full interior design consultation.</p>
+        <a href="#quote" class="svc-link">Get a Quote →</a>
+      </article>
+      <article class="svc-card reveal">
+        <div class="svc-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 14h36M6 14v-4h36v4M14 14v28M34 14v28"/></svg></div>
+        <h3>False Ceiling</h3>
+        <p>POP and gypsum ceiling designs with cove and profile lighting for a finished, premium look that elevates every room.</p>
+        <a href="#quote" class="svc-link">Get a Quote →</a>
+      </article>
+      <article class="svc-card reveal">
+        <div class="svc-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M24 4v40M14 10v28M34 10v28M6 44h36"/></svg></div>
+        <h3>Wooden Partition</h3>
+        <p>Decorative and functional partitions that divide spaces beautifully — seamlessly integrating with your existing interior aesthetic.</p>
+        <a href="#quote" class="svc-link">Get a Quote →</a>
+      </article>
+      <article class="svc-card reveal">
+        <div class="svc-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="6" y="12" width="36" height="26" rx="2"/><path d="M6 22h36M22 12v26"/></svg></div>
+        <h3>Interior Design</h3>
+        <p>End-to-end interior design consultancy — from concept to execution, we craft complete living and commercial spaces that inspire.</p>
+        <a href="#quote" class="svc-link">Get a Quote →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PORTFOLIO ===================== -->
+<section id="portfolio" class="portfolio">
+  <div class="container">
+    <span class="eyebrow center">Our Work</span>
+    <h2 class="section-title center">A Glimpse Into Our Recent Projects</h2>
+    <p class="section-sub center">Filter by category to explore kitchens, wardrobes, offices, showrooms and full interiors.</p>
+    <div class="filter-bar" role="tablist">
+      <button class="flt-btn active" data-filter="all" role="tab">All</button>
+      <button class="flt-btn" data-filter="kitchen" role="tab">Kitchen</button>
+      <button class="flt-btn" data-filter="wardrobe" role="tab">Wardrobe</button>
+      <button class="flt-btn" data-filter="office" role="tab">Office</button>
+      <button class="flt-btn" data-filter="showroom" role="tab">Showroom</button>
+      <button class="flt-btn" data-filter="interior" role="tab">Interior</button>
+    </div>
+    <div class="portfolio-grid" id="portGrid">
+      <figure class="port-item" data-category="kitchen">
+        <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?w=700&q=80" alt="Modular kitchen" loading="lazy">
+        <div class="port-overlay"><h4>Modular Kitchen</h4><small>Vaishali Nagar, Jaipur</small></div>
+      </figure>
+      <figure class="port-item" data-category="wardrobe">
+        <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=700&q=80" alt="Walk-in wardrobe" loading="lazy">
+        <div class="port-overlay"><h4>Walk-in Wardrobe</h4><small>Mansarovar, Jaipur</small></div>
+      </figure>
+      <figure class="port-item" data-category="office">
+        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=700&q=80" alt="Office workstations" loading="lazy">
+        <div class="port-overlay"><h4>Office Workstations</h4><small>Malviya Nagar, Jaipur</small></div>
+      </figure>
+      <figure class="port-item" data-category="showroom">
+        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=700&q=80" alt="Showroom interior" loading="lazy">
+        <div class="port-overlay"><h4>Showroom Fit-out</h4><small>C-Scheme, Jaipur</small></div>
+      </figure>
+      <figure class="port-item" data-category="interior">
+        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=700&q=80" alt="Living room interior" loading="lazy">
+        <div class="port-overlay"><h4>Living Room Makeover</h4><small>Vaishali Nagar, Jaipur</small></div>
+      </figure>
+      <figure class="port-item" data-category="kitchen">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=700&q=80" alt="L-shape kitchen" loading="lazy">
+        <div class="port-overlay"><h4>L-Shape Kitchen</h4><small>Sodala, Jaipur</small></div>
+      </figure>
+      <figure class="port-item" data-category="wardrobe">
+        <img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?w=700&q=80" alt="Bedroom wardrobe" loading="lazy">
+        <div class="port-overlay"><h4>Bedroom Wardrobe</h4><small>Jagatpura, Jaipur</small></div>
+      </figure>
+      <figure class="port-item" data-category="interior">
+        <img src="https://images.unsplash.com/photo-1616137422495-1e9e46e2aa77?w=700&q=80" alt="Ceiling and paint" loading="lazy">
+        <div class="port-overlay"><h4>Ceiling & Paint</h4><small>Tonk Road, Jaipur</small></div>
+      </figure>
+      <figure class="port-item" data-category="office">
+        <img src="https://images.unsplash.com/photo-1497366412874-3415097a27e7?w=700&q=80" alt="Executive cabin" loading="lazy">
+        <div class="port-overlay"><h4>Executive Cabin</h4><small>Banipark, Jaipur</small></div>
+      </figure>
+      <figure class="port-item" data-category="showroom">
+        <img src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=700&q=80" alt="Retail store interior" loading="lazy">
+        <div class="port-overlay"><h4>Retail Store Interior</h4><small>Sanganer, Jaipur</small></div>
+      </figure>
+      <figure class="port-item" data-category="kitchen">
+        <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=700&q=80" alt="Premium kitchen" loading="lazy">
+        <div class="port-overlay"><h4>Premium Kitchen</h4><small>Pratap Nagar, Jaipur</small></div>
+      </figure>
+      <figure class="port-item" data-category="interior">
+        <img src="https://images.unsplash.com/photo-1615529162924-f8605388461d?w=700&q=80" alt="Bedroom interior" loading="lazy">
+        <div class="port-overlay"><h4>Master Bedroom</h4><small>Sitabari, Jaipur</small></div>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lbClose">✕</button>
+  <img src="" alt="" id="lbImg">
+</div>
+
+<!-- ===================== BEFORE/AFTER ===================== -->
+<section class="ba-section">
+  <div class="container">
+    <span class="eyebrow light center">Renovation Showcase</span>
+    <h2 class="section-title white center" style="margin-bottom:16px">Before &amp; After</h2>
+    <p style="text-align:center;color:rgba(247,242,233,.6);font-size:.93rem;margin-bottom:48px">Drag the slider to see the transformation we delivered.</p>
+    <div class="ba-wrap" id="baWrap">
+      <img class="ba-before" src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1000&q=80" alt="Kitchen before renovation">
+      <div class="ba-after-clip" id="baClip">
+        <img class="ba-after" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1000&q=80" alt="Kitchen after renovation">
+      </div>
+      <div class="ba-handle-line" id="baLine">
+        <div class="ba-handle-btn">⟨⟩</div>
+      </div>
+      <span class="ba-tag ba-tag-l">Before</span>
+      <span class="ba-tag ba-tag-r">After</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PROCESS ===================== -->
+<section id="process" class="process">
+  <div class="container">
+    <span class="eyebrow center">How We Work</span>
+    <h2 class="section-title center">From Idea to Installation</h2>
+    <p class="section-sub center">A clear, transparent process so you always know what's happening with your project.</p>
+    <div class="process-timeline">
+      <div class="proc-step reveal">
+        <div class="proc-num">01</div>
+        <h4>Consultation</h4>
+        <p>Free site visit to understand your needs, lifestyle and budget. No pressure, just conversation.</p>
+      </div>
+      <div class="proc-step reveal">
+        <div class="proc-num">02</div>
+        <h4>Design Planning</h4>
+        <p>Detailed layouts, 3D visuals and material selection so you know exactly what you're getting.</p>
+      </div>
+      <div class="proc-step reveal">
+        <div class="proc-num">03</div>
+        <h4>Manufacturing</h4>
+        <p>In-house craftsmen fabricate every piece with premium materials and tight quality controls.</p>
+      </div>
+      <div class="proc-step reveal">
+        <div class="proc-num">04</div>
+        <h4>Installation</h4>
+        <p>Precision installation by our own team with regular progress updates throughout.</p>
+      </div>
+      <div class="proc-step reveal">
+        <div class="proc-num">05</div>
+        <h4>Delivery</h4>
+        <p>Final quality check, handover and after-sales support for complete peace of mind.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== WHY US ===================== -->
+<section class="why">
+  <div class="container">
+    <span class="eyebrow light center">Why Choose Us</span>
+    <h2 class="section-title white center">The Saifi Difference</h2>
+    <p class="section-sub center" style="color:rgba(247,242,233,.6)">What sets us apart from every other woodwork firm in Jaipur.</p>
+    <div class="why-grid">
+      <div class="why-card reveal">
+        <div class="why-num">01</div>
+        <h4>Free Consultation</h4>
+        <p>We come to your site, listen to your vision and provide honest advice — all at zero cost and zero obligation.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-num">02</div>
+        <h4>Premium Materials</h4>
+        <p>Branded plywood, laminates and hardware from trusted manufacturers — no compromises on what goes inside your walls.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-num">03</div>
+        <h4>Skilled In-house Craftsmen</h4>
+        <p>No third-party subcontracting. Every nail and joint is handled by our own experienced workshop team.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-num">04</div>
+        <h4>Latest Designs</h4>
+        <p>We stay current with global interior trends and bring fresh, modern aesthetics to every Jaipur home and office.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-num">05</div>
+        <h4>On-Time Delivery</h4>
+        <p>Project timelines we commit to and keep — because we respect that your home is not a construction site forever.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-num">06</div>
+        <h4>Affordable Pricing</h4>
+        <p>Transparent, itemised quotes with no hidden charges. Premium quality doesn't have to mean an unaffordable price tag.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TESTIMONIALS ===================== -->
+<section id="testimonials" class="testimonials">
+  <div class="container">
+    <span class="eyebrow light center">Client Stories</span>
+    <h2 class="section-title white center">What Our Clients Say</h2>
+    <div class="testi-wrap">
+      <div style="overflow:hidden;border-radius:var(--r)">
+        <div class="testi-track" id="testiTrack">
+          <article class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"Saifi Wood Work designed our modular kitchen exactly the way we imagined — great quality and finished on time. The attention to detail was exceptional. Highly recommend Asif bhai's team."</p>
+            <div class="testi-author">
+              <img src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?w=100&q=80" alt="Rohit Sharma" class="testi-avatar" loading="lazy">
+              <div><strong>Rohit Sharma</strong><span>Vaishali Nagar, Jaipur</span></div>
+            </div>
+          </article>
+          <article class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"We got our office workstations and cabin done. Very professional, clean work and good after-sales support. The team was punctual and the quality exceeded our expectations. Worth every rupee."</p>
+            <div class="testi-author">
+              <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&q=80" alt="Pooja Agarwal" class="testi-avatar" loading="lazy">
+              <div><strong>Pooja Agarwal</strong><span>Malviya Nagar, Jaipur</span></div>
+            </div>
+          </article>
+          <article class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"Excellent wardrobe and false ceiling work. The team was punctual, polite and the finishing quality is genuinely premium. Will definitely hire again for our showroom renovation project."</p>
+            <div class="testi-author">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80" alt="Imran Khan" class="testi-avatar" loading="lazy">
+              <div><strong>Imran Khan</strong><span>Mansarovar, Jaipur</span></div>
+            </div>
+          </article>
+          <article class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"Our full home interior was done by Saifi Wood Work and we couldn't be happier. From the initial consultation to the final handover, everything was smooth and transparent. Truly a 5-star experience."</p>
+            <div class="testi-author">
+              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80" alt="Priya Gupta" class="testi-avatar" loading="lazy">
+              <div><strong>Priya Gupta</strong><span>Jagatpura, Jaipur</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="testi-controls">
+        <button class="testi-btn" id="tPrev">&#10094;</button>
+        <div class="testi-dots" id="tDots"></div>
+        <button class="testi-btn" id="tNext">&#10095;</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FAQ ===================== -->
+<section class="faq">
+  <div class="container">
+    <span class="eyebrow center">Questions</span>
+    <h2 class="section-title center">Frequently Asked Questions</h2>
+    <div class="faq-inner" id="faqInner">
+      <div class="faq-item">
+        <button class="faq-q"><span>How long does a modular kitchen project take?</span><div class="faq-icon">+</div></button>
+        <div class="faq-a"><p>Most modular kitchens are completed within 15–25 days from final measurement, depending on size and material availability. We'll give you a firm timeline in your quote.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>Do you provide free site visits and quotes?</span><div class="faq-icon">+</div></button>
+        <div class="faq-a"><p>Yes. We offer a completely free consultation and site visit anywhere in Jaipur, followed by a detailed, no-obligation itemised quote. No pressure, no spam calls.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>What materials do you use?</span><div class="faq-icon">+</div></button>
+        <div class="faq-a"><p>We use branded plywood, MDF, laminates, veneers and hardware from trusted manufacturers — selected based on your budget and usage requirements.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>Do you offer warranty on your work?</span><div class="faq-icon">+</div></button>
+        <div class="faq-a"><p>Yes, all our woodwork comes with a standard workmanship warranty. Details are shared at the time of project confirmation and included in the formal agreement.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>Which areas do you serve?</span><div class="faq-icon">+</div></button>
+        <div class="faq-a"><p>We primarily serve Jaipur and surrounding areas including Vaishali Nagar, Mansarovar, Malviya Nagar, C-Scheme, Sodala, Jagatpura and Pratap Nagar.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>Can you work within a tight budget?</span><div class="faq-icon">+</div></button>
+        <div class="faq-a"><p>Absolutely. We have solutions across a wide price range and will always suggest materials and designs that give you the best quality within your budget — with full transparency on costs.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== QUOTE FORM ===================== -->
+<section id="quote" class="quote">
+  <div class="container quote-grid">
+    <div class="quote-info reveal-left">
+      <span class="eyebrow light">Free, No-Obligation Quote</span>
+      <h2 class="section-title white">Get Your Dream Interior Designed Today</h2>
+      <p>Share a few details and our team will get back to you with a free consultation and estimate — usually within a few hours.</p>
+      <div class="quote-checks">
+        <div class="quote-check"><span class="qc-icon">✓</span> Free site visit in Jaipur</div>
+        <div class="quote-check"><span class="qc-icon">✓</span> Transparent, itemised quotes</div>
+        <div class="quote-check"><span class="qc-icon">✓</span> No pressure, no spam calls</div>
+        <div class="quote-check"><span class="qc-icon">✓</span> Response within a few hours</div>
+      </div>
+    </div>
+    <div class="quote-form-box reveal-right">
+      <form class="form-grid" id="quoteForm" novalidate>
+        <div class="frow">
+          <label for="fname">Your Name</label>
+          <input type="text" id="fname" name="name" placeholder="Full name" required>
+          <span class="ferr" data-for="fname"></span>
+        </div>
+        <div class="frow">
+          <label for="fphone">Phone Number</label>
+          <input type="tel" id="fphone" name="phone" placeholder="10-digit mobile" required>
+          <span class="ferr" data-for="fphone"></span>
+        </div>
+        <div class="frow">
+          <label for="fservice">Service Required</label>
+          <select id="fservice" name="service" required>
+            <option value="" disabled selected>Select a service</option>
+            <option>Modular Kitchen</option>
+            <option>Wardrobes & Cabinets</option>
+            <option>Office Furniture</option>
+            <option>Showroom Interiors</option>
+            <option>Custom Furniture</option>
+            <option>Wall Paint & Interior</option>
+            <option>False Ceiling</option>
+            <option>Wooden Partition</option>
+            <option>Interior Design</option>
+            <option>Other</option>
+          </select>
+          <span class="ferr" data-for="fservice"></span>
+        </div>
+        <div class="frow">
+          <label for="fcity">Your City</label>
+          <input type="text" id="fcity" name="city" placeholder="City / Area" required>
+          <span class="ferr" data-for="fcity"></span>
+        </div>
+        <div class="frow frow-full">
+          <label for="fmsg">Your Message</label>
+          <textarea id="fmsg" name="message" rows="4" placeholder="Tell us about your project — room size, requirements, timeline..."></textarea>
+        </div>
+        <button type="submit" class="form-submit">Request Free Quote</button>
+        <p class="form-msg" id="formMsg" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Success Popup -->
+<div class="popup-overlay" id="popup">
+  <div class="popup-box">
+    <button class="popup-close" id="popupClose">✕</button>
+    <div class="popup-icon">🎉</div>
+    <h3>Thank You!</h3>
+    <p>Your quote request has been received. Our team will contact you within a few hours. You can also reach us directly on WhatsApp for instant assistance.</p>
+    <a href="https://wa.me/919694138746?text=Hi%2C%20I%20just%20submitted%20a%20quote%20request%20on%20your%20website.%20Can%20you%20please%20assist?" class="popup-btn" target="_blank" rel="noopener">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A8.86 8.86 0 0 0 12.05 4a8.92 8.92 0 0 0-7.7 13.4l-.83 3.04 3.12-.82a8.9 8.9 0 0 0 4.27 1.09h.01c4.92 0 8.92-4 8.92-8.92a8.85 8.85 0 0 0-2.64-6.27z"/></svg>
+      Chat on WhatsApp
+    </a>
+  </div>
+</div>
+
+<!-- ===================== CONTACT ===================== -->
+<section id="contact" class="contact">
+  <div class="container contact-grid">
+    <div class="reveal-left">
+      <span class="eyebrow">Get In Touch</span>
+      <h2 class="section-title">Visit or Contact Us</h2>
+      <div class="c-item">
+        <div class="c-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 5a2 2 0 012-2h2.28a1 1 0 01.98.78l.78 3.5a1 1 0 01-.27.96L7.4 9.6a11.36 11.36 0 005 5l1.36-1.39a1 1 0 01.96-.27l3.5.78a1 1 0 01.78.98V19a2 2 0 01-2 2h-1C9.16 21 3 14.84 3 7V5z"/></svg></div>
+        <div><strong>Call Us</strong><a href="tel:+919694138746">+91 96941 38746</a><a href="tel:+917073744499">+91 70737 44499</a></div>
+      </div>
+      <div class="c-item">
+        <div class="c-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A8.86 8.86 0 0 0 12.05 4a8.92 8.92 0 0 0-7.7 13.4l-.83 3.04 3.12-.82a8.9 8.9 0 0 0 4.27 1.09h.01c4.92 0 8.92-4 8.92-8.92a8.85 8.85 0 0 0-2.64-6.27z"/></svg></div>
+        <div><strong>WhatsApp</strong><a href="https://wa.me/919694138746" target="_blank" rel="noopener">Chat with us instantly →</a></div>
+      </div>
+      <div class="c-item">
+        <div class="c-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></div>
+        <div><strong>Email</strong><a href="mailto:saifiwoodwork444@gmail.com">saifiwoodwork444@gmail.com</a></div>
+      </div>
+      <div class="c-item">
+        <div class="c-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-5.5-7-11a7 7 0 0114 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+        <div><strong>Workshop Address</strong><p>B-34, Riddhi Nagar, Maharana Pratap Marg,<br>Near Rangoli Garden, Vaishali Nagar,<br>Jaipur, Rajasthan</p></div>
+      </div>
+      <div class="c-item">
+        <div class="c-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+        <div><strong>Working Hours</strong><p>Monday – Sunday: 9:00 AM – 8:00 PM</p></div>
+      </div>
+    </div>
+    <div class="contact-map reveal-right">
+      <iframe title="Saifi Wood Work location" src="https://maps.google.com/maps?q=Vaishali%20Nagar%2C%20Jaipur%2C%20Rajasthan&t=&z=14&ie=UTF8&iwloc=&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#home" class="logo">
+        <div class="logo-mark">SW</div>
+        <div class="logo-txt">Saifi <em>Wood Work</em></div>
+      </a>
+      <p>Premium custom furniture, modular kitchens, wardrobes and interior solutions — crafted in Jaipur, built for life.</p>
+      <div class="soc">
+        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 10-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.78-3.89 1.1 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0022 12z"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="3.5"/><circle cx="17.3" cy="6.7" r="1"/></svg></a>
+        <a href="https://wa.me/919694138746" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A8.86 8.86 0 0 0 12.05 4a8.92 8.92 0 0 0-7.7 13.4l-.83 3.04 3.12-.82a8.9 8.9 0 0 0 4.27 1.09h.01c4.92 0 8.92-4 8.92-8.92a8.85 8.85 0 0 0-2.64-6.27z"/></svg></a>
+        <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="5" width="20" height="14" rx="3"/><path d="m10 9 5 3-5 3z" fill="currentColor"/></svg></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h5>Quick Links</h5>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#mission">Mission & Vision</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#quote">Get a Quote</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h5>Services</h5>
+      <a href="#services">Modular Kitchen</a>
+      <a href="#services">Wardrobes & Cabinets</a>
+      <a href="#services">Office Furniture</a>
+      <a href="#services">Showroom Interiors</a>
+      <a href="#services">Interior Design</a>
+      <a href="#services">False Ceiling</a>
+      <a href="#services">Wooden Partition</a>
+    </div>
+    <div class="footer-col">
+      <h5>Contact</h5>
+      <a href="tel:+919694138746">+91 96941 38746</a>
+      <a href="tel:+917073744499">+91 70737 44499</a>
+      <a href="mailto:saifiwoodwork444@gmail.com">saifiwoodwork444@gmail.com</a>
+      <p>B-34, Riddhi Nagar, Maharana Pratap Marg, Near Rangoli Garden, Vaishali Nagar, Jaipur, Rajasthan</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; <span id="yr"></span> Saifi Wood Work. All rights reserved. &mdash; Owned by Asif Ahamad &middot; Designed with ♥ in Jaipur</p>
+  </div>
+</footer>
+
+<script>
+/* =====================================================
+   SAIFI WOOD WORK — JAVASCRIPT
+   ===================================================== */
+
+// ─── Year ────────────────────────────────────────────
+document.getElementById('yr').textContent = new Date().getFullYear();
+
+// ─── Loader ──────────────────────────────────────────
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    document.getElementById('loader').classList.add('done');
+  }, 2000);
+});
+
+// ─── Typewriter ──────────────────────────────────────
+(function typewriter() {
+  const el = document.getElementById('heroTitle');
+  const texts = [
+    'Transforming Spaces Into Timeless Masterpieces',
+    'Crafting Kitchens That Inspire Every Morning',
+    'Building Interiors That Tell Your Story'
+  ];
+  let ti = 0, ci = 0, deleting = false;
+  const cursor = '<span class="cursor"></span>';
+
+  function tick() {
+    const full = texts[ti];
+    if (!deleting) {
+      ci++;
+      el.innerHTML = full.slice(0, ci) + cursor;
+      if (ci === full.length) { deleting = true; setTimeout(tick, 2200); return; }
+    } else {
+      ci--;
+      el.innerHTML = full.slice(0, ci) + cursor;
+      if (ci === 0) { deleting = false; ti = (ti + 1) % texts.length; setTimeout(tick, 400); return; }
+    }
+    setTimeout(tick, deleting ? 38 : 68);
+  }
+  setTimeout(tick, 2400);
+})();
+
+// ─── Particles Canvas ────────────────────────────────
+(function particles() {
+  const canvas = document.getElementById('particles-canvas');
+  const ctx = canvas.getContext('2d');
+  let W, H, pts;
+
+  function resize() {
+    W = canvas.width = canvas.offsetWidth;
+    H = canvas.height = canvas.offsetHeight;
+  }
+  window.addEventListener('resize', () => { resize(); init(); });
+  resize();
+
+  function init() {
+    pts = Array.from({length: 55}, () => ({
+      x: Math.random() * W, y: Math.random() * H,
+      vx: (Math.random() - .5) * .35, vy: (Math.random() - .5) * .35,
+      r: Math.random() * 1.8 + .6,
+      a: Math.random()
+    }));
+  }
+  init();
+
+  function draw() {
+    ctx.clearRect(0, 0, W, H);
+    pts.forEach(p => {
+      p.x += p.vx; p.y += p.vy;
+      if (p.x < 0 || p.x > W) p.vx *= -1;
+      if (p.y < 0 || p.y > H) p.vy *= -1;
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(201,169,97,${p.a * .55})`;
+      ctx.fill();
+    });
+    // Connect nearby
+    for (let i = 0; i < pts.length; i++) {
+      for (let j = i + 1; j < pts.length; j++) {
+        const dx = pts[i].x - pts[j].x, dy = pts[i].y - pts[j].y;
+        const d = Math.sqrt(dx*dx + dy*dy);
+        if (d < 110) {
+          ctx.beginPath();
+          ctx.strokeStyle = `rgba(201,169,97,${(1 - d/110) * .12})`;
+          ctx.lineWidth = .8;
+          ctx.moveTo(pts[i].x, pts[i].y);
+          ctx.lineTo(pts[j].x, pts[j].y);
+          ctx.stroke();
+        }
+      }
+    }
+    requestAnimationFrame(draw);
+  }
+  draw();
+})();
+
+// ─── Navbar ──────────────────────────────────────────
+const navbar = document.getElementById('navbar');
+const ham = document.getElementById('ham');
+const navLinks = document.getElementById('navLinks');
+
+window.addEventListener('scroll', () => {
+  navbar.classList.toggle('scrolled', window.scrollY > 60);
+  document.getElementById('topBtn').classList.toggle('show', window.scrollY > 300);
+});
+
+ham.addEventListener('click', () => {
+  const open = navLinks.classList.toggle('open');
+  ham.classList.toggle('open', open);
+  ham.setAttribute('aria-expanded', open);
+});
+
+navLinks.querySelectorAll('.nav-link').forEach(l => {
+  l.addEventListener('click', () => {
+    navLinks.classList.remove('open');
+    ham.classList.remove('open');
+    ham.setAttribute('aria-expanded', false);
+  });
+});
+
+// Active nav link on scroll
+const sections = document.querySelectorAll('section[id], header[id]');
+const navAnchors = document.querySelectorAll('.nav-link');
+window.addEventListener('scroll', () => {
+  let current = '';
+  sections.forEach(s => {
+    if (window.scrollY >= s.offsetTop - 120) current = s.id;
+  });
+  navAnchors.forEach(a => {
+    a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+  });
+}, {passive: true});
+
+// ─── Back to Top ─────────────────────────────────────
+document.getElementById('topBtn').addEventListener('click', () => {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+});
+
+// ─── Scroll Reveal ───────────────────────────────────
+(function revealObserver() {
+  const els = document.querySelectorAll('.reveal, .reveal-left, .reveal-right');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) {
+        setTimeout(() => e.target.classList.add('in-view'), i * 80);
+        io.unobserve(e.target);
+      }
+    });
+  }, {threshold: .12});
+  els.forEach(el => io.observe(el));
+})();
+
+// ─── Counter Animation ───────────────────────────────
+(function counters() {
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (!e.isIntersecting) return;
+      const el = e.target;
+      const target = +el.dataset.target;
+      const dur = 1800;
+      const start = performance.now();
+      function step(now) {
+        const t = Math.min((now - start) / dur, 1);
+        const ease = 1 - Math.pow(1 - t, 3);
+        el.textContent = Math.round(ease * target);
+        if (t < 1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+      io.unobserve(el);
+    });
+  }, {threshold: .5});
+  document.querySelectorAll('.counter').forEach(el => io.observe(el));
+})();
+
+// ─── Hero Parallax (subtle) ──────────────────────────
+const heroBg = document.getElementById('heroBg');
+window.addEventListener('scroll', () => {
+  const scrolled = window.scrollY;
+  if (scrolled < window.innerHeight * 1.2) {
+    heroBg.style.transform = `scale(1.05) translateY(${scrolled * .25}px)`;
+  }
+}, {passive: true});
+
+// ─── Portfolio Filter & Lightbox ─────────────────────
+(function portfolio() {
+  const btns = document.querySelectorAll('.flt-btn');
+  const items = document.querySelectorAll('.port-item');
+  const lb = document.getElementById('lightbox');
+  const lbImg = document.getElementById('lbImg');
+  const lbClose = document.getElementById('lbClose');
+
+  btns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      btns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.filter;
+      items.forEach(item => {
+        const show = filter === 'all' || item.dataset.category === filter;
+        item.classList.toggle('hidden', !show);
+      });
+    });
+  });
+
+  items.forEach(item => {
+    item.addEventListener('click', () => {
+      const src = item.querySelector('img').src;
+      const alt = item.querySelector('img').alt;
+      lbImg.src = src;
+      lbImg.alt = alt;
+      lb.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    });
+  });
+
+  function closeLb() {
+    lb.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  lbClose.addEventListener('click', closeLb);
+  lb.addEventListener('click', e => { if (e.target === lb) closeLb(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLb(); });
+})();
+
+// ─── Before / After Slider ───────────────────────────
+(function baSlider() {
+  const wrap = document.getElementById('baWrap');
+  const clip = document.getElementById('baClip');
+  const line = document.getElementById('baLine');
+  if (!wrap) return;
+  let dragging = false;
+
+  function setPos(clientX) {
+    const rect = wrap.getBoundingClientRect();
+    let pct = Math.max(0, Math.min(1, (clientX - rect.left) / rect.width));
+    clip.style.width = (pct * 100) + '%';
+    line.style.left = (pct * 100) + '%';
+  }
+
+  line.addEventListener('mousedown', () => dragging = true);
+  line.addEventListener('touchstart', () => dragging = true, {passive: true});
+  window.addEventListener('mousemove', e => { if (dragging) setPos(e.clientX); });
+  window.addEventListener('touchmove', e => { if (dragging) setPos(e.touches[0].clientX); }, {passive: true});
+  window.addEventListener('mouseup', () => dragging = false);
+  window.addEventListener('touchend', () => dragging = false);
+  wrap.addEventListener('click', e => setPos(e.clientX));
+})();
+
+// ─── Testimonial Slider ──────────────────────────────
+(function testimonials() {
+  const track = document.getElementById('testiTrack');
+  const dotsWrap = document.getElementById('tDots');
+  const prev = document.getElementById('tPrev');
+  const next = document.getElementById('tNext');
+  if (!track) return;
+
+  const cards = track.children;
+  const total = cards.length;
+  let cur = 0;
+  let autoInterval;
+
+  // Build dots
+  Array.from({length: total}).forEach((_, i) => {
+    const d = document.createElement('button');
+    d.className = 'testi-dot' + (i === 0 ? ' active' : '');
+    d.setAttribute('aria-label', `Testimonial ${i+1}`);
+    d.addEventListener('click', () => goTo(i));
+    dotsWrap.appendChild(d);
+  });
+
+  function goTo(idx) {
+    cur = (idx + total) % total;
+    track.style.transform = `translateX(-${cur * 100}%)`;
+    dotsWrap.querySelectorAll('.testi-dot').forEach((d, i) => d.classList.toggle('active', i === cur));
+  }
+
+  prev.addEventListener('click', () => { goTo(cur - 1); resetAuto(); });
+  next.addEventListener('click', () => { goTo(cur + 1); resetAuto(); });
+
+  function resetAuto() { clearInterval(autoInterval); autoInterval = setInterval(() => goTo(cur + 1), 5000); }
+  resetAuto();
+})();
+
+// ─── FAQ Accordion ───────────────────────────────────
+document.querySelectorAll('.faq-q').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const item = btn.closest('.faq-item');
+    const panel = item.querySelector('.faq-a');
+    const isOpen = item.classList.contains('open');
+
+    document.querySelectorAll('.faq-item').forEach(i => {
+      i.classList.remove('open');
+      i.querySelector('.faq-a').style.maxHeight = '0';
+    });
+
+    if (!isOpen) {
+      item.classList.add('open');
+      panel.style.maxHeight = panel.scrollHeight + 'px';
+    }
+  });
+});
+
+// ─── Quote Form Validation & Popup ───────────────────
+(function quoteForm() {
+  const form = document.getElementById('quoteForm');
+  const msg = document.getElementById('formMsg');
+  const popup = document.getElementById('popup');
+  const popupClose = document.getElementById('popupClose');
+
+  function validate() {
+    let ok = true;
+    const fields = [
+      {id: 'fname', rule: v => v.trim().length >= 2, err: 'Please enter your full name.'},
+      {id: 'fphone', rule: v => /^[6-9]\d{9}$/.test(v.trim()), err: 'Enter a valid 10-digit mobile number.'},
+      {id: 'fservice', rule: v => v !== '', err: 'Please select a service.'},
+      {id: 'fcity', rule: v => v.trim().length >= 2, err: 'Please enter your city.'},
+    ];
+    fields.forEach(f => {
+      const el = document.getElementById(f.id);
+      const errEl = form.querySelector(`[data-for="${f.id}"]`);
+      const val = el.value;
+      if (!f.rule(val)) {
+        el.classList.add('err');
+        if (errEl) errEl.textContent = f.err;
+        ok = false;
+      } else {
+        el.classList.remove('err');
+        if (errEl) errEl.textContent = '';
+      }
+    });
+    return ok;
+  }
+
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    if (!validate()) return;
+    msg.className = 'form-msg ok';
+    msg.textContent = 'Sending your request…';
+    setTimeout(() => {
+      msg.textContent = '';
+      form.reset();
+      popup.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }, 1200);
+  });
+
+  function closePopup() {
+    popup.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  popupClose.addEventListener('click', closePopup);
+  popup.addEventListener('click', e => { if (e.target === popup) closePopup(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closePopup(); });
+})();
+
+// ─── Mouse parallax on hero content ──────────────────
+document.addEventListener('mousemove', e => {
+  const x = (e.clientX / window.innerWidth - .5) * 14;
+  const y = (e.clientY / window.innerHeight - .5) * 10;
+  const content = document.querySelector('.hero-content');
+  if (content) content.style.transform = `translate(${x * .4}px, ${y * .3}px)`;
+});
+</script>
+</body>
+</html>
